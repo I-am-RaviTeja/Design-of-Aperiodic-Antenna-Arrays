@@ -29,7 +29,7 @@ swarm = zeros(NelemX,7);
 % 4th col - updated y-direction coefficients
 % 5th col - x-direction velocity
 % 6th col - y-direction velocity
-% 7th col - Global minimum value
+% 7th col - local best value
 
 posx = zeros(NelemX, 1);
 posy = zeros(NelemY, 1);
