@@ -38,7 +38,7 @@ swarm = zeros(NelemX,13);
 % 10th col - y-direction amplitude velocity
 % 11th col - x-direction distance velocity
 % 12th col - y-direction distance velocity
-% 13th col - Global minimum value
+% 13th col - local best value
 
 % Initial values
 swarm(:, 13) = 40;       % Greater than maximum possible value
